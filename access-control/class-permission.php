@@ -1,11 +1,12 @@
 <?php
 
-class Permission{
+class Permission
+{
+    public $id;
 
-  public $id;
+    public $name;
 
-  public $name;
-
-  public function __construct( $id, $name)
+    public function __construct($id, $name) {}
+    {
+    }
 }
- ?>
